@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> sell</title>
+    <link rel="stylesheet" href="assets/css/sell.css">
+   </head>
+<body>
+  <img src="assets/img/clouds-1.svg" alt="image" class="home__cloud-1">
+  <img src="assets/img/clouds-2.svg" alt="image" class="home__cloud-2">
+  <img src="assets/img/planet.svg" alt="image" class="home__planet-2">
+  
+
+  <div class="wrapper">
+    <h2>Do you want to sell your study material?</h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Enter your name" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter your email" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter the study material you want to sell" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter Price" required>
+      </div>
+       <!-- Button to get location -->
+       <div class="input-box">
+        <input type="text" placeholder="Enter your Location" required>
+      </div>
+
+      <div>
+     
+        <input type="file" name="photo" accept="image/*" capture="camera">
+        <button type="submit">Upload</button>
+      <div class="policy">
+        <input type="checkbox">
+        <h3>I accept all terms & condition</h3>
+      </div>
+
+      <button type="submit" class="submit-button">Submit</button>
+      <script>
+        document.getElementById("submitBtn").addEventListener("click", function() {
+          alert("IMFORMATION ADDED SUCCESSFULLY!!");
+        });
+      </script>
+
+   
+    </form>
+  </div>
+
+</body>
+</html>
